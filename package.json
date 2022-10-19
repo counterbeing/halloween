@@ -1,0 +1,31 @@
+{
+  "name": "halloween",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc; node dist/index.js",
+    "dev": "node-dev src/index.ts",
+    "dd": "nodemon --watch src src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "midi": "^2.0.0",
+    "obs-websocket-js": "^5.0.2",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.3.9",
+    "@swc/helpers": "^0.4.12",
+    "@types/midi": "^2.0.0",
+    "@types/node": "^18.11.0",
+    "node-dev": "^7.4.3",
+    "nodemon": "^2.0.20",
+    "regenerator-runtime": "^0.13.10",
+    "ts-node": "^10.9.1"
+  }
+}
